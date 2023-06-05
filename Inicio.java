@@ -22,12 +22,7 @@ import java.util.* ;
 
 // Sintase java criação
 
-public class Main
-{
-     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // in entrada de dados, out saida de dados
-        System.out.println("digite o valor de A");
-        System.out.println("digite o valor de B");
+   System.out.println("digite o valor de B");
         System.out.println("digite o valor de C");
         int A = input.nextInt();
         int B = input.nextInt();
@@ -40,7 +35,13 @@ public class Main
         public void atv1p(int A, int B, int C){
             int delta = calcDelta(A, B, C);
             double x1 = -(B + Math.sqrt(delta))/ (2*A);
-
+     public class Main
+{
+     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // in entrada de dados, out saida de dados
+        System.out.println("digite o valor de A");
+            double x2 = -(B + Math.sqrt(delta))/ (2*A);
+            System.out.println("delta:" +);
         }
 
         public int calcDelta(int A, int B, int C){
